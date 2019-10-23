@@ -1,0 +1,1 @@
+2019-09-27 15:39:13,338 [http-bio-8087-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'

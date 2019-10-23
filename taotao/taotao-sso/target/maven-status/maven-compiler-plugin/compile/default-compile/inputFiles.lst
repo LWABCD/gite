@@ -1,0 +1,7 @@
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\controller\UserController.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\service\impl\UserServiceImpl.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\controller\PageController.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\dao\JedisClient.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\dao\impl\JedisClientSingle.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\service\UserService.java
+F:\eclipse-workspace\taotao-sso\src\main\java\com\taotao\sso\dao\impl\JedisClientCluster.java
