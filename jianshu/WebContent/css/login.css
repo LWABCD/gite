@@ -1,0 +1,164 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-color: gainsboro;
+}
+
+.js{
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 42px;
+	color: lightsalmon;
+	float: left;
+	
+}
+a{
+	text-decoration: none;
+}
+
+.body{
+	width: 350px;
+	height: 400px;
+	background: white;
+	margin-top: 150px;
+	border-radius: 6px;
+	
+}
+.body-tishi{
+	width:350px;
+	height:30px;
+	color:red;
+	
+	text-align: center;
+	line-height: 30px;
+}
+.body-font{
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+	color: gray;
+}
+.body-font a:hover{
+	text-decoration: underline;
+	color: lightcoral;
+}
+.login{
+	text-decoration: underline;
+	color: lightsalmon;
+}
+
+.reg{
+	
+	color: gray;
+	text-decoration: none;
+}
+.body-table{
+	width: 350px;
+	height: 170px;
+	margin-left: 50px;
+}
+.body-table td{
+	width: 1000px;
+	height: 24px;
+	margin-left: 150px;
+}
+.box-a{
+	float: right;
+	text-decoration: none;
+	color: gray;
+	
+}
+.box-a:hover{
+	color: black;
+	
+}
+
+.td-img{
+	width: 25px;
+	height: auto;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+.inp1{
+	width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px 4px 0 0 ;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.inp2{
+	width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-radius: 0 0 4px 4px;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.phonemsg{
+	width: 100px;
+	height: auto;
+	color: lightsalmon;
+	
+	font-size: 10px;
+}
+.tishi{
+	width:100px;
+	height:100px;
+	margin-left: 5px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.td-box{
+	width: 300px;
+	height: 50px;
+	color: gray;
+	line-height: 50px;
+}
+.box-a{
+	float: right;
+	text-decoration: none;
+	color: gray;
+	margin-right: 90px;
+}
+.box-a:hover{
+	color: black;
+	
+}
+
+.button{
+	width: 350px;
+	height: 40px;
+}
+
+.btn-submit{
+	width: 280px;
+	height: 40px;
+	border-radius: 35px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	background: lightskyblue;
+	cursor: pointer;
+}
+.btn-submit:hover{
+	background: cornflowerblue;
+
+}

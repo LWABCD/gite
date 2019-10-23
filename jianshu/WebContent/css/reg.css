@@ -1,0 +1,164 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	background-color: gainsboro;
+}
+.js{
+	width: 100px;
+	height: 60px;
+	cursor: pointer;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 42px;
+	color: lightsalmon;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+
+.body{
+	width: 350px;
+	height: 440px;
+	background: white;
+	box-shadow:black 0 1px #000 inset;
+	margin-top: 150px;
+	border-radius: 6px;
+	box-shadow: #87CEFA;
+}
+.body-tishi{
+	width:350px;
+	height:30px;
+	color:red;
+	text-align: center;
+	line-height: 30px;
+}
+.body-font{
+	width: 350px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 24px;
+	color: gray;
+}
+.body-font a:hover{
+	text-decoration: underline;
+	color: lightcoral;
+}
+.body-table{
+	width: 400px;
+	height: 230px;
+	margin-left:50px;
+}
+.body-table td{
+	width: 1000px;
+	height: 24px;
+	margin-left: 150px;
+}
+
+.td-img{
+	width: 25px;
+	height: auto;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+.inp1{
+	width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px 4px 0 0 ;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+
+}
+.inp2{
+	width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.inp3{
+	width: 100px;
+	height: 40px;
+	margin-bottom: 0;
+	padding: 4px 12px 4px 35px;
+	border: 1px solid #c8c8c8;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.inp4{
+	width: 90px;
+	height: 35px;
+	margin-bottom: 0;
+	color: white;
+	border:none;
+	border-radius: 15px;
+	cursor: pointer;
+    background-color:lightskyblue;
+	
+}
+.inp5{
+	width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border: 1px solid #c8c8c8;
+    border-radius: 0 0 4px 4px;
+    background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+}
+.tishi{
+	width:100px;
+	height:100px;
+	margin-left: 5px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.phonemsg{
+	width: 100px;
+	height: auto;
+	color: lightsalmon;
+}
+.button{
+	text-align:left;
+	width: 350px;
+	height: 40px;
+	margin-left: -5px;
+	margin-top: 20px;
+	
+}
+.btn-submit{
+	
+	width: 280px;
+	height: 40px;
+	border-radius: 35px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	background: green;
+	
+	cursor: pointer;
+}
+
+.reg{
+	text-decoration: underline;
+	color: lightsalmon;
+}
+
+.login{
+	color: gray;
+	text-decoration: none;
+}

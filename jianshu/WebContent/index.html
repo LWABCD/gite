@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>简书</title>
+<link rel="stylesheet" href="css/index.css" />
+
+<!-- 先导入jquery脚本库 -->
+<script src="js/jquery.js"></script>
+<!-- 再导入自己的js, 因为我们自己的这个js使用了jquery库提供的API -->
+<script src="js/index-get-article.js"></script>
+<script src="js/index-get-users.js"></script>
+<script src="js/getmoreArticle.js"></script>
+<script src="js/getAuthorById.js"></script>
+<script src="js/loginstate.js"></script>
+<script src="js/userFollowUser.js"></script>
+<script src="js/search.js"></script>
+</head>
+<body>
+
+	<div class="head">
+		<div class="head-font">简书</div>
+
+		<div class="head-font-style">
+			<ul>
+				<li class="head-sy" >首页</li>
+				<li class="head-xz">下载App</li>
+				<li class="head-ss">
+					<div class="head-input">
+						<a href="#" class="head-input-p" target="_blank"><img id="search-btn" onclick="search();" class="td-img" src="img/search.png"/></a>
+						<input type="search" id="search-text" class="head-search" placeholder="搜索" />
+					</div>
+				</li>
+			</ul>
+			</div>
+			<!--------------------------->
+			<div class="head-font-style-right">
+				<ul>
+				<li><a href="">Aa</a></li>
+				<li><img src="img/download.png"/></li>
+				<li id="lg"><a href="login.jsp">登录</a></li>			
+				<li class="head-li-img" id="show" style="display: none;">
+					<img src="img/pkq.jpg"/><img src="img/xiaj.png" style="width:25px;"/>
+					<ul class="head-erji">
+						<li><img src="img/my.png"/><a href="">我的主页</a></li>
+						<li><img src="img/shouc.png"/><a href="">收藏的文章</a></li>
+						<li><img src="img/like.png"/><a href="">喜欢的文章</a></li>
+						<li><img src="img/buy.png"/><a href="">已购内容</a></li>
+						<li><img src="img/money.png"/><a href="">我的钱包</a></li>
+						<li><img src="img/shez.png"/><a href="">设置</a></li>
+						<li><img src="img/help.png"/><a href="">帮助</a></li>
+						<li><img src="img/exit.png"/><a href="jionOutController">退出</a></li>
+					</ul>
+				</li>
+				<li><p class="head-register" id="reg" ><a href="reg.jsp">注册</a></p></li>
+				<li><p class="head-writebook"><a href="">写文章</a></p></li>
+				</ul>
+			</div>
+		</div>
+	<!---------------------->
+	<div class="body-img"></div>
+
+	<div class="body">
+		<!------------------->
+		<div class="body-letf" id="article_list"></div>
+
+
+
+
+	</div>
+	<!-------------------------------------->
+	<div class="body-right">
+		<div class="body-right-head">
+			<p>推荐作者</p>
+			<a href="javascript:void()" id="hyp_link">换一批</a>
+		</div>
+		<div class="body-right-list" id="user_list">
+			<!-- <div class="bottom-ck">查看全部 ></div> -->
+			<div class="body-right-list-font">
+				<p><a style="color: black; font-size: 16px;">abc</a></p>
+        		<p>写了1000k字 ·1000k喜欢</p>
+        	</div>
+        	<div class="body-right-list-gz">
+        	<a href="javascript:void()" id="beFollowedUid" uid='+item.uid+'>+关注</a>
+        	</div>
+		</div>
+	</div>
+	<div class="bottom-yd">
+		<div class="bottom-jz" id="ReadMore">阅读更多</div>
+	</div>
+</body>
+</html>
