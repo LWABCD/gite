@@ -1,0 +1,6 @@
+2019-10-09 17:20:28.654  INFO 14248 --- [restartedMain] com.grbk.blog.BlogApplication            : Starting BlogApplication on DESKTOP-65ETUKV with PID 14248 (G:\blog\target\classes started by LWABCD in G:\blog)
+2019-10-09 17:20:28.656  INFO 14248 --- [restartedMain] com.grbk.blog.BlogApplication            : The following profiles are active: pro
+2019-10-09 17:20:33.008  WARN 14248 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-09 17:20:33.162  WARN 14248 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-10-09 17:20:33.766  INFO 14248 --- [restartedMain] com.grbk.blog.BlogApplication            : Started BlogApplication in 6.093 seconds (JVM running for 8.604)
+2019-10-09 18:02:27.517  WARN 14248 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m25s494ms839µs926ns).
